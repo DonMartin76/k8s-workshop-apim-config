@@ -43,8 +43,7 @@
         "scopes": ""
       },
       "authServers": [
-        "auth-passport",
-        "auth-saml"
+        "auth-passport"
       ],
       "tags": [],
       "plans": [
