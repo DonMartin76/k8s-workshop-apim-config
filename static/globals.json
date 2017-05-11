@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "title": "DonMartin76 API Portal",
-  "footer": "&copy; 2016 DonMartin76 [martin(at)danielsson.de]",
+  "title": "Kubernetes Workshop APIs",
+  "footer": "&copy; 206-2017 Haufe-Lexware",
   "api": {
     "headerName": "X-ApiKey"
   },
@@ -109,5 +109,5 @@
       "callbackURL": "https://${PORTAL_NETWORK_PORTALHOST}callback/google"
     }
   },
-  "company": "DonMartin76"
+  "company": "Haufe-Lexware"
 }
