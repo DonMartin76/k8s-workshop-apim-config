@@ -1,0 +1,34 @@
+{
+  "GITHUB_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GITHUB_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GOOGLE_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GOOGLE_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_NETWORK_APIHOST": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_NETWORK_PORTALHOST": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_AUTH_GITHUB_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_AUTH_GITHUB_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  }
+}

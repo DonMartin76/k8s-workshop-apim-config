@@ -1,0 +1,66 @@
+{
+  "GITHUB_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GITHUB_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GOOGLE_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "GOOGLE_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_API_AESKEY": {
+    "value": "188970eff6c3403cad398ad690baaf80d3635b15b94acdb2415b534db5f800728a1de84e163414ba4e35172bcd8f95430f52ba3ae965018233a1e09625736d54eb0a62e5f8562d4eb0658263779bb200",
+    "encrypted": true
+  },
+  "PORTAL_API_DYNAMIC_CONFIG": {
+    "value": "${PORTAL_CONFIG_BASE}dynamic"
+  },
+  "PORTAL_API_STATIC_CONFIG": {
+    "value": "${PORTAL_CONFIG_BASE}static"
+  },
+  "PORTAL_API_URL": {
+    "value": "http://portal-api:3001"
+  },
+  "PORTAL_AUTH_GITHUB_CLIENTID": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_AUTH_GITHUB_CLIENTSECRET": {
+    "value": "Override this via Pod env vars",
+    "encrypted": false
+  },
+  "PORTAL_CHATBOT_URL": {
+    "value": "http://portal-api:3004"
+  },
+  "PORTAL_CONFIG_BASE": {
+    "value": "/var/portal-api/"
+  },
+  "PORTAL_KONG_ADAPTER_URL": {
+    "value": "http://portal-kong-adapter:3002"
+  },
+  "PORTAL_KONG_ADMIN_URL": {
+    "value": "http://kong:8001"
+  },
+  "PORTAL_MAILER_URL": {
+    "value": "http://portal-mailer:3003"
+  },
+  "PORTAL_NETWORK_APIHOST": {
+    "value": "api.local.com"
+  },
+  "PORTAL_NETWORK_PORTALHOST": {
+    "value": "portal.local.com"
+  },
+  "PORTAL_NETWORK_SCHEMA": {
+    "value": "https"
+  },
+  "PORTAL_PORTAL_URL": {
+    "value": "http://portal:3000"
+  }
+}

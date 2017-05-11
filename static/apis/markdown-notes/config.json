@@ -1,0 +1,27 @@
+{
+  "api": {
+    "name": "markdown-notes",
+    "upstream_url": "http://${NOTES_API_SERVICE_HOST}:3100",
+    "request_path": "/markdown-notes/v1",
+    "strip_request_path": true
+  },
+  "plugins": [
+    {
+      "config": {
+        "origin": "*",
+        "methods": "GET,HEAD,PUT,PATCH,POST,DELETE"
+      },
+      "name": "cors"
+    },
+    {
+      "name": "request-transformer",
+      "config": {
+        "add": {
+          "headers": [
+            "%%Forwarded"
+          ]
+        }
+      }
+    }
+  ]
+}
