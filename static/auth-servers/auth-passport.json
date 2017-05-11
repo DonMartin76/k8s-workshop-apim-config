@@ -7,7 +7,7 @@
   "config": {
     "api": {
       "name": "auth-passport",
-      "upstream_url": "http://auth-passport:3010",
+      "upstream_url": "http://${AUTH_PASSPORT_SERVICE_HOST}:3010",
       "request_path": "/auth-passport"
     },
     "plugins": [
@@ -31,4 +31,3 @@
     "callbackUrl": "https://${PORTAL_NETWORK_APIHOST}/auth-passport/google/callback"
   }
 }
-
